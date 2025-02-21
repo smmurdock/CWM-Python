@@ -1,3 +1,5 @@
+import math
+
 #############################################################
 # Variables
 students_count = 1000
@@ -89,3 +91,13 @@ x -= 3
 x *= 3
 x /= 3
 print(x)
+
+#############################################################
+# Working with Numbers
+print(round(2.9))
+print(abs(-2.9))
+
+# import math module for more complex math functions (import at top)
+print(math.ceil(2.2))
+# Google Python 3 math modules for more functions
+print(math.floor(2.9))
