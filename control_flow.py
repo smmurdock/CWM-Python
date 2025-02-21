@@ -72,3 +72,18 @@ else:
 # Version 4
 if (high_income or good_credit) and not student:
     print("Eligible")
+
+#############################################################
+# Short-circuit Evaluation
+# As soon as one of these values is False, the program will stop evaluating the # rest of the values
+# This is called short-circuit evaluation
+
+high_income = False
+good_credit = True
+student = True
+
+if high_income and good_credit and not student:
+    print("Eligible")
+
+if high_income or good_credit or not student:
+    print("Eligible")
