@@ -33,3 +33,11 @@ print(course)
 # \'
 # \\
 # \n
+
+# Formatted Strings
+first = "Shanay"
+last = "Murdock"
+full = first + " " + last
+print(full)
+full = f"{first} {last}"
+print(full)
