@@ -161,3 +161,13 @@ command = ""
 while command.lower() != "quit":
     command = input(">")
     print("ECHO", command)
+
+#############################################################
+# Infinite Loops
+# A loop that runs foreber
+while True:
+    command = input(">")
+    print("ECHO", command)
+    # This will allow you to break out of the loop
+    if command.lower() == "quit":
+        break  # without a way out, your program may run out of memory and crash
