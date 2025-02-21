@@ -21,3 +21,15 @@ print(course[0:])
 print(course[:3])
 print(course[:])
 print(course[1:-1])
+
+# Escape Sequences
+course = 'Python "Programming'
+course = "Python \"Programming"
+course = "Python \nProgramming"
+course = "Python \tProgramming"
+print(course)
+
+# \"
+# \'
+# \\
+# \n
