@@ -67,3 +67,25 @@ print(course.find("Pro"))  # returns index; -1 means not found
 print(course.replace("P", "-"))
 print("Pro" in course)  # returns boolean
 print("swift" not in course)
+
+#############################################################
+# Numbers
+x = 1
+x = 1.1
+x = 1 + 2j  # a + bi
+print(10 + 3)
+print(10 - 3)
+print(10 * 3)
+print(10 / 3)  # returns float
+print(10 // 3)  # returns integer
+print(10 % 3)  # returns remainder
+print(10 ** 3)
+
+# Augmented Assignment Operator
+x = 10
+x = x + 3
+x += 3
+x -= 3
+x *= 3
+x /= 3
+print(x)
