@@ -75,7 +75,8 @@ if (high_income or good_credit) and not student:
 
 #############################################################
 # Short-circuit Evaluation
-# As soon as one of these values is False, the program will stop evaluating the # rest of the values
+# As soon as one of these values is False, the program will
+# # stop evaluating the rest of the values
 # This is called short-circuit evaluation
 
 high_income = False
@@ -145,3 +146,18 @@ for x in [1, 2, 3, 4]:
 
 # for item in shopping_cart:
 #     print(item)
+
+#############################################################
+# While Loops
+number = 100
+while number > 0:
+    print(number)
+    number //= 2
+
+# Be careful to ensure there is a way to break out of the loop
+# otherwise it will run indefinitely and crash your program
+
+command = ""
+while command.lower() != "quit":
+    command = input(">")
+    print("ECHO", command)
