@@ -149,25 +149,36 @@ for x in [1, 2, 3, 4]:
 
 #############################################################
 # While Loops
-number = 100
-while number > 0:
-    print(number)
-    number //= 2
+# number = 100
+# while number > 0:
+#     print(number)
+#     number //= 2
 
-# Be careful to ensure there is a way to break out of the loop
-# otherwise it will run indefinitely and crash your program
+# # Be careful to ensure there is a way to break out of the loop
+# # otherwise it will run indefinitely and crash your program
 
-command = ""
-while command.lower() != "quit":
-    command = input(">")
-    print("ECHO", command)
+# command = ""
+# while command.lower() != "quit":
+#     command = input(">")
+#     print("ECHO", command)
 
 #############################################################
 # Infinite Loops
 # A loop that runs foreber
-while True:
-    command = input(">")
-    print("ECHO", command)
-    # This will allow you to break out of the loop
-    if command.lower() == "quit":
-        break  # without a way out, your program may run out of memory and crash
+# while True:
+#     command = input(">")
+#     print("ECHO", command)
+#     # This will allow you to break out of the loop
+#     if command.lower() == "quit":
+#         break  # without a way out, your program may run out of memory and crash
+
+#############################################################
+# Exercise
+# Write a program to display the even numbers between 1 and 10
+count = 0
+for number in range(1, 10):
+    if number % 2 == 0:
+        count += 1
+        print(number)
+
+print(f"We have {count} even numbers")
