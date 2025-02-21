@@ -87,3 +87,13 @@ if high_income and good_credit and not student:
 
 if high_income or good_credit or not student:
     print("Eligible")
+
+#############################################################
+# Chaining Comparison Operators
+# age should be between 18 and 65
+age = 22
+if age >= 18 and age < 65:
+    print("Eligible")
+
+if 18 <= age < 65:
+    print("Eligible")
