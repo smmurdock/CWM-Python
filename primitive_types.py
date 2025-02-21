@@ -101,3 +101,15 @@ print(abs(-2.9))
 print(math.ceil(2.2))
 # Google Python 3 math modules for more functions
 print(math.floor(2.9))
+
+#############################################################
+# Type Conversion
+x = input("x: ")
+print(type(x))
+y = int(x) + 1
+print(f"x: {x}, y: {y}")
+
+# int(x)
+# float(x)
+# bool(x)
+# str(x)
